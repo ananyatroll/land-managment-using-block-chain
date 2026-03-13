@@ -1,0 +1,8 @@
+node_modules/
+client/node_modules/
+build/
+client/build/
+.DS_Store
+.env
+.secret
+client/src/artifacts/
