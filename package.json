@@ -1,0 +1,28 @@
+{
+  "name": "land-registration-blockchain",
+  "version": "1.0.0",
+  "description": "Land Registration System using Blockchain (Ethiopian Context)",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx truffle test",
+    "migrate": "npx truffle migrate",
+    "compile": "npx truffle compile",
+    "start-ganache": "ganache-cli -p 7545 -i 5777",
+    "client-install": "cd client && npm install",
+    "client-start": "cd client && npm start",
+    "setup": "npm install && npm run client-install",
+    "dev": "npm run client-start"
+  },
+  "devDependencies": {
+    "ganache-cli": "^6.12.2",
+    "truffle": "^5.11.5"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
